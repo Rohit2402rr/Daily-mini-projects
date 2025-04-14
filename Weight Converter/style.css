@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left top, rgb(20, 20, 1), rgb(84, 154, 177), rgb(218, 230, 231));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bold;
+    color: rgb(214, 32, 8);
+}
+
+.container {
+    background-color: rgba(255, 255, 225, 0.3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    font-weight: 700;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input {
+    padding: 10px;
+    width: 70%;
+    background: rgba(255, 255, 225, 0.3);
+    border-color: rgba(255, 255, 225, 0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    color: darkgreen;
+    outline: none;
+}
+
+.error {
+    color: red;
+}
